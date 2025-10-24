@@ -1,6 +1,6 @@
 # Restaurante Snack Wars 
 
-## 🛡️ Sobre o Projeto
+## 🍔 Sobre o Projeto
 
 Este repositório contém o código-fonte da Landing Page do restaurante Snack Wars.
 
@@ -14,14 +14,19 @@ Design Responsivo: O layout se adapta perfeitamente a todos os tamanhos de tela 
 
 Interatividade Básica: Uso de jQuery para animações de scroll, menus responsivos ou validação de formulários de contato.
 
-## 🚀 Tecnologias Utilizadas 
 
-O projeto "Snack Wars" é uma Landing Page estática construída com o seguinte stack tecnológico:
+## 🛠️ Tecnologias Utilizadas 
 
-- HTML5 (Estrutura): É a base do projeto, responsável por definir a semântica e todo o conteúdo da página, incluindo a estrutura da navegação, das seções principais e dos cards de produtos.
+- HTML5: Marcação semântica
+- CSS3: Estilização
+- JavaScript: Funcionalidade interativa
+- jQuery: Manipulação DOM e manipulação de eventos
+- ScrollReveal: Animações de scroll
+- Font Awesome: Ícones
+- Google Fonts: Fontes
 
-- CSS3 (Estilização & Design): Garante todo o visual da aplicação. É responsável por aplicar o layout, as cores temáticas (focadas no estilo sci-fi), as animações visuais e, crucialmente, pela responsividade (via media queries), assegurando que o site se adapte perfeitamente a celulares, tablets e desktops.
+## ⚠️ Como utilizar
 
-- JavaScript (com jQuery) (Interatividade): Adiciona a camada de interatividade no lado do cliente. É utilizado, principalmente, para simplificar a manipulação do DOM (Document Object Model), controlando o menu mobile, os efeitos de clique e provendo o scroll suave entre as seções.
-
-- Font Awesome (Ícones): Uma biblioteca externa essencial que fornece os ícones temáticos (como o símbolo Jedi, o WhatsApp e as estrelas de avaliação) utilizados no menu de navegação e nos cards de produtos.
+- Clone ou baixe os arquivos do projeto
+- Abra o arquivo index.html no seu navegador
+- Não é necessária configuração adicional - todas as dependências são carregadas via CDN
