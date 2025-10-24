@@ -6,6 +6,10 @@ Este repositório contém o código-fonte da Landing Page do restaurante Snack W
 
 O projeto foi desenvolvido como uma representação básica, porém funcional, da vitrine digital do restaurante. O objetivo principal é apresentar o conceito de marca, o ambiente e um preview do menu para os clientes com o código limpo e responsividade. 
 
+Veja meu projeto online: 
+
+https://snackwars.netlify.app
+
 
 ## 🛠️ Tecnologias Utilizadas 
 
