@@ -29,21 +29,19 @@ section {
 }
 
 .btn-default {
-    border: none; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(69, 69, 255);
-    border-radius: 12px;
-    padding: 10px 14px;
-    font-weight: 600;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background-color .3s ease;
+     border: none;
+     display: flex; align-items: center; 
+     justify-content: center; 
+     background-image: linear-gradient(#dee4fc, #a7a7f0); 
+     border-radius: 12px; 
+     padding: 10px 14px; font-weight: 600; 
+     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1); 
+     cursor: pointer; transition: 
+     background-color .3s ease; 
 }
 
 .btn-default:hover {
-    background-color: rgb(77, 77, 215);
+    background-image: linear-gradient(#b8c2ff, #6c6ce8);
 }
 
 .social-media-buttons {
