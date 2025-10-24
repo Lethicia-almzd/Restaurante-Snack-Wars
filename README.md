@@ -11,7 +11,7 @@ O projeto foi desenvolvido como uma representação básica, porém funcional, d
 
 ## 🔎 Veja meu projeto online: 
 
-👉🏽 https://snackwars.netlify.app/
+👉🏽 https://snackwars.netlify.app/#
 
 
 
