@@ -2,10 +2,9 @@
 
 ## 🍔 Sobre o Projeto
 
-Este repositório contém o código-fonte da Landing Page do restaurante Snack Wars.
+Snack Wars é um site temático que ainda que simples foi inspirado no universo Star Wars, com o objetivo de proporcionar uma experiência divertida e imersiva enquanto o usuário navega por um cardápio de lanches artesanais.
 
-O projeto foi desenvolvido como uma representação básica, porém funcional, da vitrine digital do restaurante. O objetivo principal é apresentar o conceito de marca, o ambiente e um preview do menu para os clientes com o código limpo e responsividade. 
-
+O projeto combina uma interface moderna, efeitos de rolagem suave e animações dinâmicas ao rolar a página, sempre com responsividade.
 
 
 
