@@ -2,7 +2,7 @@ header {
     width: 100%;
     padding: 28px 8%;
     position: sticky;
-    top: 0;  
+    top: 0;
     background-color: hsl(265, 63%, 90%);
     z-index: 3;
 }
@@ -18,17 +18,17 @@ header {
 
 #nav_logo {
     font-size: 24px;
-    color: blue; 
+    color: blue;
 }
 
 #nav_list {
     display: flex;
     list-style: none;
-    gap: 48px; 
+    gap: 48px;
 }
 
 .nav-item a {
-    text-decoration: none; 
+    text-decoration: none;
     color: black;
     font-weight: 600;
 }
@@ -47,14 +47,15 @@ header {
 }
 
 @media screen and (max-width: 1170px) {
-    #nav_list, 
+
+    #nav_list,
     #navbar .btn-default {
         display: none;
     }
 
     #mobile_btn {
         display: block;
-        border: none; 
+        border: none;
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
@@ -62,7 +63,7 @@ header {
 }
 
 #mobile_menu.active {
-    display:flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
