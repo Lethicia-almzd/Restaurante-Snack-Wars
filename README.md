@@ -14,7 +14,6 @@ O projeto combina uma interface moderna, efeitos de rolagem suave e animações 
 
 
 
-
 ## 🛠️ Tecnologias Utilizadas 
 
 - HTML5: Marcação semântica
