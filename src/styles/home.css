@@ -1,6 +1,7 @@
 #home {
     display: flex;
     min-height: calc(100vh-96px);
+    margin-top: 50px;
 }
 
 #cta {
@@ -17,7 +18,7 @@
 }
 
 #cta .title span {
-    color: blue; 
+    color: blue;
 }
 
 #cta .description {
@@ -26,65 +27,42 @@
 
 #cta_buttons {
     display: flex;
-    gap: 24px; 
+    gap: 24px;
 }
 
 #cta_buttons a {
     text-decoration: none;
-    color:#1d1d1d;
+    color: #1d1d1d;
 }
 
 #phone_button {
-    display: flex; 
+    display: flex;
     gap: 8px;
     align-items: center;
-    background-color:  rgb(69, 69, 255);
+    background-color: rgb(69, 69, 255);
     padding: 8px 14px;
-    border-radius: 12px; 
+    border-radius: 12px;
     font-weight: 500;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 
 #phone_button button {
-    background-color: #8586e4;
-    box-shadow: none;
+    background-image: linear-gradient(#dee4fc, #a7a7f0);
 }
 
-#banner {
-    display: flex;
-    align-items: start;
-    justify-content: end;
-    width: 65%;
-    z-index: 2;
-}
 
-#banner img {
-    height: 100%;
-    width: fit-content;
-}
-
-.shape {
-    background-color: #2b2edd;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    border-radius: 30%  30% 30% 75%;
-    top: 1;
-    right: 0;
-    z-index: 1; 
-}
-
-@media screen and (max-width: 1700px) {
-    #home {  
-    min-height: 100%;
-    padding-top: 0px;
+@media screen and (max-width: 5000px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
     }
 
-    #banner, 
+    #banner,
     #banner img,
     #home .shape {
         display: none;
     }
+
     #cta {
         width: 100%;
         align-items: center;
@@ -97,4 +75,3 @@
         display: none;
     }
 }
-
