@@ -22,7 +22,6 @@ O projeto foi desenvolvido como uma representação básica, porém funcional, d
 - CSS3: Estilização
 - JavaScript: Funcionalidade interativa
 - jQuery: Manipulação DOM e manipulação de eventos
-- ScrollReveal: Animações de scroll
 - Font Awesome: Ícones
 - Google Fonts: Fontes
 
