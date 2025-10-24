@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="icon" type="snackWars" href="src/images/favicon.png">
+    
+    <title>Snack Wars</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-jedi" id="nav_logo">snackWars</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    <span>Sinta a Força... </span>e o Sabor em Cada Mordida!
+                </h1>
+
+                <p class="description">
+                    Navegue pela nossa galáxia de lanches artesanais e sabores épicos. Aqui, cada pedido é uma missão e
+                    cada mordida, uma vitória intergaláctica.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+5537996702354" id="phone_button">
+                        <button class="btn_default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (37) 99670-2354
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+
+                    <a
+                        href="https://wa.me/5537996702354?text=Ol%C3%A1%20Jovem%20Padawan%2C%20entre%20em%20contato%20e%20fa%C3%A7a%20o%20seu%20pedido%3A%20">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="www.instagram.com/Lee_ayy21">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Confira os nossos pratos mais que incríveis</h3>
+
+            <div id="dishes">
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish01.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Encontro de Padawans
+                    </h3>
+
+                    <span class="dish-description">
+                        Bibimbap coreano: arroz, carne marinada, vegetais variados, ovo frito e molho gochujang.
+                    </span>
+
+                    <div id="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(50+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Escudo da Resistência
+                    </h3>
+
+                    <span class="dish-description">
+                        Sanduíche em pão integral com recheio leve de frango desfiado, queijo cottage, alface e cenoura.
+                    </span>
+
+                    <div id="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(80+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 15,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Dessert Star
+                    </h3>
+
+                    <span class="dish-description">
+                        Salada refrescante de morango, kiwi e banana coberta com leite condensado.
+                    </span>
+
+                    <div id="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(60+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lámen do Mestre Sábio
+                    </h3>
+
+                    <span class="dish-description">
+                        Lámen tonkotsu cremoso com fatias generosas de chashu, tomate, ovo marinado, camarão e algas
+                        nori.
+                    </span>
+
+                    <div id="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <section id="testimonials">
+                <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+                <div id="testimonials_content">
+                    <h2 class="section-title">
+                        Depoimentos
+                    </h2>
+                    <h3 class="section-subtitle">
+                        o que vocês comentam:
+                    </h3>
+
+                    <div id="feedbacks">
+                        <div class="feedback">
+                            <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                            <div class="feedback-content">
+                                <p>
+                                    Mariana Xavier
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                                <p>
+                                    "As frutas estavam impecáveis e o toque de leite condensado deu o equilíbrio ideal.
+                                    Entrega hiper-rápida, um ótimo custo benefício. Voltarei em breve!"
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feedback">
+                            <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                            <div class="feedback-content">
+                                <p>
+                                    Luna Martins
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                                <p>
+                                    "O Lámen do Mestre Sábio é incrível, o caldo é incrivelmente rico e de outro mundo."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn-default">
+                        Ver mais avaliações
+                    </button>
+                </div>
+            </section>
+
+    </main>
+
+    <footer>
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 SNACK WARS
+            </span>
+
+            <div class="social-media-buttons">
+                <a
+                    href="https://wa.me/5537996702354?text=Ol%C3%A1%20Jovem%20Padawan%2C%20entre%20em%20contato%20e%20fa%C3%A7a%20o%20seu%20pedido%3A%20">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>
