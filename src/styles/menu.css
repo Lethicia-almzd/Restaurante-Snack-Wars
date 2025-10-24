@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    margin-top: 120px;
+    margin-top: 10px;
 }
 
 #dishes {
@@ -42,6 +42,7 @@
     opacity: 1;
     transform: translateY(0);
 }
+
 .dish-heart {
     position: absolute;
     background-color: #d5cdbb;
